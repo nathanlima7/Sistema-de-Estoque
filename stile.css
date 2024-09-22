@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    align-items: center;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+.container{
+    background-color: #0404368e;
+    color: aliceblue;
+    width: 70%;
+    height: 400px;
+    margin-left: 200px;
+}
+
+.card{
+    display: flex;
+    background-color: #2b024780;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card a{
+    max-width: 120px;
+}
+
+.card p{
+    max-width: 500px;
+}
